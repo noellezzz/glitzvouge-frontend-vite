@@ -1,12 +1,12 @@
 .hero-header {
     background-image: url('../../assets/newjeans.png');
+    background-color: #F8FFED;
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     opacity: 0.8; /* Lowers the opacity of the entire section */
     width: 100%; /* Full width */
     height: 600px;
-    
 }
 
 .featurs .featurs-item .featurs-icon {
