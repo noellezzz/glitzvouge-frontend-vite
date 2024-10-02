@@ -4,6 +4,8 @@
     background-position: center; 
     background-repeat: no-repeat; 
     opacity: 0.8; /* Lowers the opacity of the entire section */
+    width: 100%; /* Full width */
+    height: 600px;
     
 }
 
