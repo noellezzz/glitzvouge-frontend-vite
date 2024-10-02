@@ -1,8 +1,9 @@
 .hero-header {
-    background-image: url('../../assets/hero-bg.png');
+    background-image: url('../../assets/newjeans.png');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+    opacity: 0.8; /* Lowers the opacity of the entire section */
     
 }
 
@@ -103,3 +104,4 @@
     /* border:1px solid red; */
     gap: 10px;
 }
+
