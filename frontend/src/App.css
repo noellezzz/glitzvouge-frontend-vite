@@ -250,10 +250,12 @@ ul li a:hover{
 
 .banner-crumbs {
     width: 100% !important;
-    background-image: url('https://themewagon.github.io/fruitables/img/cart-page-header-img.jpg');
+    background-image: url('assets/newjeansbreadcrumb.png');
+    background-color: #F8FFED;
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+    opacity: 0.8;
 }
 
 .footer-item a:hover {
