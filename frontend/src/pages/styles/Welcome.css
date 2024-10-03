@@ -5,7 +5,27 @@
     background-repeat: no-repeat; 
     opacity: 0.8; /* Lowers the opacity of the entire section */
     width: 100%; /* Full width */
-    height: 600px;
+    height: 450px;
+}
+
+.text-glow {
+    font-size: 2.5rem; /* Adjust as needed */
+    font-weight: bold;
+    color: #EFA2C6; /* Main text color */
+    text-shadow: 0 0 10px #FFBED6, /* Outer glow color */
+                 0 0 20px #FFBED6, 
+                 0 0 30px #FFDBE5, /* Softer, secondary glow */
+                 0 0 40px #DFDFDF; /* Lighter outer glow */
+    animation: throbbing-glow 0.5s infinite alternate; /* Faster animation */
+}
+
+@keyframes throbbing-glow {
+    0% {
+        text-shadow: 0 0 10px #FFBED6, 0 0 20px #FFBED6, 0 0 30px #FFDBE5, 0 0 40px #DFDFDF;
+    }
+    100% {
+        text-shadow: 0 0 20px #FFBED6, 0 0 40px #FFBED6, 0 0 60px #FFDBE5, 0 0 80px #DFDFDF;
+    }
 }
 
 .featurs .featurs-item .featurs-icon {
