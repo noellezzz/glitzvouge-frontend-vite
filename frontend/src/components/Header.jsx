@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation  } from 'react-router-dom'
 import './styles/Header.css'
+import logo from '../assets/logo.png';
 
 import { IoSearch } from "react-icons/io5";
 import { IoBag } from "react-icons/io5";
@@ -56,9 +57,9 @@ const Header = () => {
             </div>
             <div class="container px-0">
                 <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                    <a href="/" class="navbar-brand"><h1 class="text-primary primary-color display-6">
-                        GlitzVogue
-                    </h1></a>
+                <a href="/" className="navbar-brand">
+                    <img src={logo} alt="GlitzVogue Logo" className="img-fluid" style={{ height: '100px' }} />
+                </a>
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
                     </button>

@@ -16,7 +16,7 @@ const Welcome = () => {
                     <div class="row g-5 align-items-center">
                         <div class="col-md-12 col-lg-7 w-50">
                             <h4 class="mb-3 text-secondary secondary-color">All-Natural Makeup</h4>
-                            <h1 class="mb-5 display-3 text-primary primary-color text-glow">GlitzVogue: a Haven for Makeup Lovers</h1>
+                            <h1 class="mb-5 display-3 text-primary primary-color text-outline">GlitzVogue: a Haven for Makeup Lovers</h1>
                             <div class="position-relative mx-auto input-button">
                                 <input type="text" placeholder="Search" />
                                 <button type="submit">Submit Now</button>

@@ -8,15 +8,15 @@
     height: 450px;
 }
 
-.text-glow {
-    font-size: 2.5rem; /* Adjust as needed */
+/* .text-glow {
+    font-size: 2.5rem;
     font-weight: bold;
-    color: #EFA2C6; /* Main text color */
-    text-shadow: 0 0 10px #FFBED6, /* Outer glow color */
+    color: #EFA2C6; 
+    text-shadow: 0 0 10px #FFBED6, 
                  0 0 20px #FFBED6, 
-                 0 0 30px #FFDBE5, /* Softer, secondary glow */
-                 0 0 40px #DFDFDF; /* Lighter outer glow */
-    animation: throbbing-glow 0.5s infinite alternate; /* Faster animation */
+                 0 0 30px #FFDBE5, 
+                 0 0 40px #DFDFDF; 
+    animation: throbbing-glow 0.5s infinite alternate; 
 }
 
 @keyframes throbbing-glow {
@@ -26,7 +26,15 @@
     100% {
         text-shadow: 0 0 20px #FFBED6, 0 0 40px #FFBED6, 0 0 60px #FFDBE5, 0 0 80px #DFDFDF;
     }
-}
+} */
+ 
+/* .text-outline{
+    text-shadow: 
+        -1px -1px 0 black, /* Top-left 
+        1px -1px 0 black,  /* Top-right 
+        -1px 1px 0 black,  /* Bottom-left 
+        1px 1px 0 black;   /* Bottom-right 
+} */
 
 .featurs .featurs-item .featurs-icon {
     position: relative;
